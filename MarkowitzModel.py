@@ -67,6 +67,9 @@ def show_portfolios(returns, volatilities):
 
 
 def generate_portfolios(returns):
+    '''
+    Monte Carlo simulation to generate the scatter plot data for efficient frontier. Generate random stocks weights, then generate annual portfoliio returns and risks based on the weights.
+    '''
     portfolio_means = []
     portfolio_risks = []
     portfolio_weights = []
@@ -83,6 +86,16 @@ def generate_portfolios(returns):
 
 
 def statistics(weights, returns):
+    '''
+    Calculate annual portfolio return, volatility, and Sharpe ratio (assuming Rf=0).
+
+    Args:
+    weights: weights of stocks, a numpy array.
+    returns: Log returns of stocks, a Panda DataFrame.
+
+    Returns:
+    annual portfolio return, volatility, and Sharpe ratio. A numpy array.
+    '''
     portfolio_return = np.sum(returns.mean() * weights) * NUM_TRADING_DAYS
     portfolio_volatility = np.sqrt(np.dot(weights.T, np.dot(returns.cov()
                                                             * NUM_TRADING_DAYS, weights)))

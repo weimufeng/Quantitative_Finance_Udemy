@@ -18,7 +18,7 @@ def calculate_returns(stock_data):
 
 
 def show_plot(stock_data):
-    plt.hist(stock_data, bins=300)
+    plt.hist(stock_data, bins=700)
     stock_variance = stock_data.var()
     stock_mean = stock_data.mean()
     sigma = np.sqrt(stock_variance)
