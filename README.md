@@ -29,6 +29,11 @@ Optimal portfolio weights: [0.363, 0.076, 0.141, 0.156, 0.264, 0]
 ![alt](/static/figs/Normal_Returns/Figure_1.png)  
 
 ### 6. Wiener process
-[WienerProcess.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/WienerProcess.py)
+[WienerProcess.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/WienerProcess.py)  
+
+### 7. Geometric Brownian Motion  
+[GBM.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/GBM.py)  
+#### Sample:  
+![alt](/static/figs/GBM/Figure_1.png)  
 
 
