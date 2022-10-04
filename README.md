@@ -28,4 +28,7 @@ Optimal portfolio weights: [0.363, 0.076, 0.141, 0.156, 0.264, 0]
 #### Sample:  
 ![alt](/static/figs/Normal_Returns/Figure_1.png)  
 
+### 6. Wiener process
+[WienerProcess.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/WienerProcess.py)
+
 
