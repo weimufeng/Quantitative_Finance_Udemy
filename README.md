@@ -2,7 +2,7 @@
 
 This repository contains course materials from Udemy Quantitative Finance Course. This course introduces stock market, bond theory, modern portfolio theory (Markowitz Model and its python implementation), CAPM, derivatives, random behaviour in finance, Black-Scholes Model, VaR, collateralized debt obligation, interest rate models and their python implementation, and value investing.
 
-## Python Code for some topics in quantitative finance
+## Python code for some topics in quantitative finance
 
 ### 1. Present value of money
 [PresentValue.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/PresentValue.py)
@@ -15,7 +15,20 @@ This repository contains course materials from Udemy Quantitative Finance Course
 #### Sample:  
 Stocks: ['AAPL', 'WMT', 'TSLA', 'GE', 'AMZN', 'DB']   
 Stock prices: ![alt](/static/figs/Markowitz_Model/Figure_1.png)  
-Efficient Frontier and optimal portfolio: ![alt](/static/figs/Markowitz_Model/Figure_2.png)  
+Efficient frontier and optimal portfolio: ![alt](/static/figs/Markowitz_Model/Figure_2.png)  
 Optimal portfolio weights: [0.363, 0.076, 0.141, 0.156, 0.264, 0]
+
+### 4. CAPM
+[CAPM.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/CAPM.py)  
+#### Sample:  
+![alt](/static/figs/CAPM/Figure_1.png)  
+
+### 5. Normal distribution of stock returns  
+[NormalReturns.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/NormalReturns.py)  
+#### Sample:  
+![alt](/static/figs/Normal_Returns/Figure_1.png)  
+
+### 6. Wiener process
+[WienerProcess.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/WienerProcess.py)
 
 
