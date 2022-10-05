@@ -44,9 +44,10 @@ Optimal portfolio weights: [0.363, 0.076, 0.141, 0.156, 0.264, 0]
 [VaR.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/VaR.py)  
 [VaRMonteCarlo.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/VaRMonteCarlo.py)
 
-### 10. Interest Rate Modeling  
+### 10. Interest Rate Modeling and Bond Pricing
 [OrnsteinUhlenbeckProcess.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/OrnsteinUhlenbeckProcess.py)  
 [VasicekModel.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/VasicekModel.py)  
+[BondPricingVasicek.py](https://github.com/weimufeng/Quantitative_Finance_Udemy/blob/main/BondPricingVasicek.py)
 #### Sample:
 ![alt](/static/figs/Interest_Rate_Modeling/Figure_1.png)  
 ![alt](/static/figs/Interest_Rate_Modeling/Figure_2.png)
